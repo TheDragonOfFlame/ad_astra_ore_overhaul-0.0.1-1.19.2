@@ -6,11 +6,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.thedragonofflame.ad_astra_ore_overhaul.Ad_Astra_Ore_Overhaul;
+import net.thedragonofflame.ad_astra_ore_overhaul.AdAstraOreOverhaul;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, Ad_Astra_Ore_Overhaul.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, AdAstraOreOverhaul.MOD_ID);
 
     public static final RegistryObject<Item> MOONROCK = ITEMS.register("moon_rock",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AAOO)));

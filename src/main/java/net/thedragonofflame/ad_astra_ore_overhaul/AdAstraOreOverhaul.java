@@ -7,20 +7,21 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.thedragonofflame.ad_astra_ore_overhaul.block.MekanismOres;
 import net.thedragonofflame.ad_astra_ore_overhaul.block.ModBlocks;
 import net.thedragonofflame.ad_astra_ore_overhaul.item.ModItems;
-import org.apache.commons.lang3.ObjectUtils;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Ad_Astra_Ore_Overhaul.MOD_ID)
-public class Ad_Astra_Ore_Overhaul
+@Mod(AdAstraOreOverhaul.MOD_ID)
+public class AdAstraOreOverhaul
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "aaoo";
@@ -49,11 +50,15 @@ public class Ad_Astra_Ore_Overhaul
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
-    public Ad_Astra_Ore_Overhaul() {
+    public AdAstraOreOverhaul() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        if (ModList.get().isLoaded("mekanism")){
+            MekanismOres.register(modEventBus);
+        }
 
         MinecraftForge.EVENT_BUS.register(this);
     }
