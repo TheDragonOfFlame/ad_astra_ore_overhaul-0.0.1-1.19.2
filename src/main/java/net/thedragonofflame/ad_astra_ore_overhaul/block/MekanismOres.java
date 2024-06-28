@@ -23,9 +23,22 @@ public class MekanismOres {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, AdAstraOreOverhaul.MOD_ID);
 
+    // Osmium
     public static final RegistryObject<Block> MOON_OSMIUM_ORE = ModBlocks.registerBlock("moon_osmium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> MARS_OSMIUM_ORE = ModBlocks.registerBlock("mars_osmium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> MERCURY_OSMIUM_ORE = ModBlocks.registerBlock("mercury_osmium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> VENUS_OSMIUM_ORE = ModBlocks.registerBlock("venus_osmium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> GLACIO_OSMIUM_ORE = ModBlocks.registerBlock("glacio_osmium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

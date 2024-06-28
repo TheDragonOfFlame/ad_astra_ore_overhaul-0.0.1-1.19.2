@@ -1,8 +1,17 @@
 {
   "item.aaoo.moon_rock": "Moon Rock",
 
-  "block.aaoo.moon_osmium_ore": "Moon Osmium Ore",
+  //VANILLA
+  //Quartz
   "block.aaoo.moon_quartz_ore": "Moon Quartz Ore",
+
+  // MEKANISM
+  //Osmium
+  "block.aaoo.glacio_osmium_ore": "Glacio Osmium_Ore",
+  "block.aaoo.mars_osmium_ore": "Mars Osmium_Ore",
+  "block.aaoo.mercury_osmium_ore": "Mercury Osmium_Ore",
+  "block.aaoo.moon_osmium_ore": "Moon Osmium Ore",
+  "block.aaoo.venus_osmium_ore": "Venus Osmium_Ore",
 
   "itemGroup.aaoo_tab": "AA Ore Overhaul"
 }
