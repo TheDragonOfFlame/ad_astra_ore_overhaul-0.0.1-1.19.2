@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:deepslate_tin_ore",
+    "aaoo:glacio_tin_ore",
+    "aaoo:mars_tin_ore",
+    "aaoo:mercury_tin_ore",
+    "aaoo:moon_tin_ore",
+    "aaoo:venus_tin_ore"
+  ],
+  "step": "underground_ores"
+}

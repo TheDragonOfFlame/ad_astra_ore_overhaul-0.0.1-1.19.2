@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "ad_astra:mercury_osmium_ore"
+    "aaoo:mercury_osmium_ore",
+    "aaoo:mercury_tin_ore"
   ]
 }
