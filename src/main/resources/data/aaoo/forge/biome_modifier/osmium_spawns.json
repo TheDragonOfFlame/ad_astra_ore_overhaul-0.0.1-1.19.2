@@ -4,6 +4,7 @@
     "type": "forge:any"
   },
   "features": [
+    "aaoo:deepslate_osmium_ore",
     "aaoo:glacio_osmium_ore",
     "aaoo:mars_osmium_ore",
     "aaoo:mercury_osmium_ore",

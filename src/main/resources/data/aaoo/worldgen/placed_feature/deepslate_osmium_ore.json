@@ -1,5 +1,5 @@
 {
-  "feature": "aaoo:moon_osmium_ore",
+  "feature": "aaoo:deepslate_osmium_ore",
   "placement": [
     {
       "type": "minecraft:count",
@@ -16,7 +16,7 @@
           "absolute": -80
         },
         "max_inclusive": {
-          "absolute": 140
+          "absolute": 80
         }
       }
     },
