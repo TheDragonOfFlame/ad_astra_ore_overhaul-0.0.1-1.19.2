@@ -1,17 +1,23 @@
 {
   "item.aaoo.moon_rock": "Moon Rock",
 
-  //VANILLA
-  //Quartz
+  // VANILLA
+  // Quartz
   "block.aaoo.moon_quartz_ore": "Moon Quartz Ore",
 
   // MEKANISM
-  //Osmium
-  "block.aaoo.glacio_osmium_ore": "Glacio Osmium_Ore",
-  "block.aaoo.mars_osmium_ore": "Mars Osmium_Ore",
-  "block.aaoo.mercury_osmium_ore": "Mercury Osmium_Ore",
+  // Osmium
+  "block.aaoo.glacio_osmium_ore": "Glacio Osmium Ore",
+  "block.aaoo.mars_osmium_ore": "Mars Osmium Ore",
+  "block.aaoo.mercury_osmium_ore": "Mercury Osmium Ore",
   "block.aaoo.moon_osmium_ore": "Moon Osmium Ore",
-  "block.aaoo.venus_osmium_ore": "Venus Osmium_Ore",
+  "block.aaoo.venus_osmium_ore": "Venus Osmium Ore",
+  // Tin
+  "block.aaoo.glacio_tine_ore": "Glacio Tin Ore",
+  "block.aaoo.mars_tin_ore": "Mars Tin Ore",
+  "block.aaoo.mercury_tin_ore": "Mercury Tin Ore",
+  "block.aaoo.moon_tin_ore": "Moon Tin Ore",
+  "block.aaoo.venus_tin_ore": "Venus Tin Ore",
 
   "itemGroup.aaoo_tab": "AA Ore Overhaul"
 }

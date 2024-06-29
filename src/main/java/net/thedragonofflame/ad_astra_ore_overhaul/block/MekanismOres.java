@@ -24,7 +24,7 @@ public class MekanismOres {
             DeferredRegister.create(ForgeRegistries.BLOCKS, AdAstraOreOverhaul.MOD_ID);
 
     // Osmium
-    public static final RegistryObject<Block> MOON_OSMIUM_ORE = ModBlocks.registerBlock("moon_osmium_ore",
+    public static final RegistryObject<Block> GLACIO_OSMIUM_ORE = ModBlocks.registerBlock("glacio_osmium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
     public static final RegistryObject<Block> MARS_OSMIUM_ORE = ModBlocks.registerBlock("mars_osmium_ore",
@@ -33,10 +33,27 @@ public class MekanismOres {
     public static final RegistryObject<Block> MERCURY_OSMIUM_ORE = ModBlocks.registerBlock("mercury_osmium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> MOON_OSMIUM_ORE = ModBlocks.registerBlock("moon_osmium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
     public static final RegistryObject<Block> VENUS_OSMIUM_ORE = ModBlocks.registerBlock("venus_osmium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
-    public static final RegistryObject<Block> GLACIO_OSMIUM_ORE = ModBlocks.registerBlock("glacio_osmium_ore",
+
+    // Tin
+    public static final RegistryObject<Block> GLACIO_TIN_ORE = ModBlocks.registerBlock("glacio_tin_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> MARS_TIN_ORE = ModBlocks.registerBlock("mars_tin_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> MERCURY_TIN_ORE = ModBlocks.registerBlock("mercury_tin_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> MOON_TIN_ORE = ModBlocks.registerBlock("moon_tin_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
+    public static final RegistryObject<Block> VENUS_TIN_ORE = ModBlocks.registerBlock("venus_tin_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.AAOO);
 
