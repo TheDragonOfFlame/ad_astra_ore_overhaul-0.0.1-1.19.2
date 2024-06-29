@@ -8,7 +8,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -16,6 +18,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.thedragonofflame.ad_astra_ore_overhaul.block.MekanismOres;
 import net.thedragonofflame.ad_astra_ore_overhaul.block.ModBlocks;
+import net.thedragonofflame.ad_astra_ore_overhaul.config.AAOOClientConfigs;
+import net.thedragonofflame.ad_astra_ore_overhaul.config.AAOOCommonConfigs;
 import net.thedragonofflame.ad_astra_ore_overhaul.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,6 +59,9 @@ public class AdAstraOreOverhaul
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, AAOOCommonConfigs.SPEC,
+                "aaoo-common.toml");
 
         if (ModList.get().isLoaded("mekanism")){
             MekanismOres.register(modEventBus);

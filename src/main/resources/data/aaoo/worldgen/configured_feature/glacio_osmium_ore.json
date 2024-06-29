@@ -7,10 +7,10 @@
       {
         "target": {
           "predicate_type": "minecraft:tag_match",
-          "tag": "ad_astra:moon_ore_replaceables"
+          "tag": "ad_astra:glacio_ore_replaceables"
         },
         "state": {
-          "Name": "aaoo:moon_osmium_ore"
+          "Name": "aaoo:glacio_osmium_ore"
         }
       }
     ]
