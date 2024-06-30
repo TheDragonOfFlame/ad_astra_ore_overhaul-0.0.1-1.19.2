@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aaoo:glacio_tin_ore",
+    "aaoo:mars_tin_ore",
+    "aaoo:mercury_tin_ore",
+    "aoo:moon_tin_ore",
+    "aaoo:venus_tin_ore"
+  ]
+}

@@ -25,6 +25,11 @@
     "aaoo:mercury_uranium_ore",
     "aaoo:moon_uranium_ore",
     "aaoo:venus_uranium_ore",
+    "aaoo:glacio_zinc_ore",
+    "aaoo:mars_zinc_ore",
+    "aaoo:mercury_zinc_ore",
+    "aaoo:moon_zinc_ore",
+    "aaoo:venus_zinc_ore",
     "aaoo:moon_quartz_ore"
   ]
 }

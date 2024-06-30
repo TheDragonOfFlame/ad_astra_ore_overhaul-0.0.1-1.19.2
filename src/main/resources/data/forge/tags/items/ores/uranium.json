@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aaoo:glacio_uranium_ore",
+    "aaoo:mars_uranium_ore",
+    "aaoo:mercury_uranium_ore",
+    "aoo:moon_uranium_ore",
+    "aaoo:venus_uranium_ore"
+  ]
+}

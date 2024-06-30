@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aaoo:glacio_fluorite_ore",
+    "aaoo:mars_fluorite_ore",
+    "aaoo:mercury_fluorite_ore",
+    "aoo:moon_fluorite_ore",
+    "aaoo:venus_fluorite_ore"
+  ]
+}

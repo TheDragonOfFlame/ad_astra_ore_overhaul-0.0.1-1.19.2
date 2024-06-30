@@ -1,9 +1,10 @@
 {
+  "replace": false,
   "values": [
     "aaoo:glacio_zinc_ore",
     "aaoo:mars_zinc_ore",
     "aaoo:mercury_zinc_ore",
-    "aaoo:moon_zinc_ore",
+    "aoo:moon_zinc_ore",
     "aaoo:venus_zinc_ore"
   ]
 }

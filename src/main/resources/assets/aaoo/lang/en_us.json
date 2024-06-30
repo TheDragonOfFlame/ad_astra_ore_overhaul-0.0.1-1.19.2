@@ -31,5 +31,11 @@
   "block.aaoo.moon_uranium_ore": "Moon Uranium Ore",
   "block.aaoo.venus_uranium_ore": "Venus Uranium Ore",
 
+  "block.aaoo.glacio_zinc_ore": "Glacio Zinc Ore",
+  "block.aaoo.mars_zinc_ore": "Mars Zinc Ore",
+  "block.aaoo.mercury_zinc_ore": "Mercury Zinc Ore",
+  "block.aaoo.moon_zinc_ore": "Moon Zinc Ore",
+  "block.aaoo.venus_zinc_ore": "Venus Zinc Ore",
+
   "itemGroup.aaoo_tab": "AA Ore Overhaul"
 }
