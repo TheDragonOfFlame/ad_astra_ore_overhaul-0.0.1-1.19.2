@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:deepslate_lead_ore",
+    "aaoo:glacio_lead_ore",
+    "aaoo:mars_lead_ore",
+    "aaoo:mercury_lead_ore",
+    "aaoo:moon_lead_ore",
+    "aaoo:venus_lead_ore"
+  ],
+  "step": "underground_ores"
+}

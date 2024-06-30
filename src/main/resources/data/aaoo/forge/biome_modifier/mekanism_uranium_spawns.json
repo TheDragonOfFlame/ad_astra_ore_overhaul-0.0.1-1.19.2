@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:deepslate_uranium_ore",
+    "aaoo:glacio_uranium_ore",
+    "aaoo:mars_uranium_ore",
+    "aaoo:mercury_uranium_ore",
+    "aaoo:moon_uranium_ore",
+    "aaoo:venus_uranium_ore"
+  ],
+  "step": "underground_ores"
+}
