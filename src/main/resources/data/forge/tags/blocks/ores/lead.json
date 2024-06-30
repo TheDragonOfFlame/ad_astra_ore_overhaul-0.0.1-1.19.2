@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aaoo:glacio_lead_ore",
+    "aaoo:mars_lead_ore",
+    "aaoo:mercury_lead_ore",
+    "aaoo:moon_lead_ore",
+    "aaoo:venus_lead_ore"
+  ]
+}

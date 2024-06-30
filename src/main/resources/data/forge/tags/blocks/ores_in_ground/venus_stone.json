@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "aaoo:venus_fluorite_ore",
+    "aaoo:venus_lead_ore",
     "aaoo:venus_osmium_ore",
-    "aaoo:venus_tin_ore"
+    "aaoo:venus_tin_ore",
+    "aaoo:venus_uranium_ore"
   ]
 }

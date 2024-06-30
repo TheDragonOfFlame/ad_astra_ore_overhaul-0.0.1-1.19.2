@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "aaoo:mars_fluorite_ore",
+    "aaoo:mars_lead_ore",
     "aaoo:mars_osmium_ore",
-    "aaoo:mars_tin_ore"
+    "aaoo:mars_tin_ore",
+    "aaoo:mars_uranium_ore"
   ]
 }

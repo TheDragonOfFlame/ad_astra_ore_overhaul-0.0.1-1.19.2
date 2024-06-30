@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "aaoo:mercury_fluorite_ore",
+    "aaoo:mercury_lead_ore",
     "aaoo:mercury_osmium_ore",
-    "aaoo:mercury_tin_ore"
+    "aaoo:mercury_tin_ore",
+    "aaoo:mercury_uranium_ore"
   ]
 }

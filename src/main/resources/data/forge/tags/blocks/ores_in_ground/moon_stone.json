@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "aaoo:moon_fluorite_ore",
+    "aaoo:moon_lead_ore",
     "aaoo:moon_osmium_ore",
-    "aaoo:moon_tin_ore"
+    "aaoo:moon_tin_ore",
+    "aaoo:moon_uranium_ore"
   ]
 }
