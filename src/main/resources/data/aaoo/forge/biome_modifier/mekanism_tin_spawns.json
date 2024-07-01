@@ -4,12 +4,12 @@
     "type": "forge:any"
   },
   "features": [
-    "aaoo:deepslate_tin_ore",
-    "aaoo:glacio_tin_ore",
-    "aaoo:mars_tin_ore",
-    "aaoo:mercury_tin_ore",
-    "aaoo:moon_tin_ore",
-    "aaoo:venus_tin_ore"
+    "aaoo:mekanism/deepslate_tin_ore",
+    "aaoo:mekanism/glacio_tin_ore",
+    "aaoo:mekanism/mars_tin_ore",
+    "aaoo:mekanism/mercury_tin_ore",
+    "aaoo:mekanism/moon_tin_ore",
+    "aaoo:mekanism/venus_tin_ore"
   ],
   "step": "underground_ores"
 }

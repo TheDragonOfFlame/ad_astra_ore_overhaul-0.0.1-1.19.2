@@ -4,12 +4,12 @@
     "type": "forge:any"
   },
   "features": [
-    "aaoo:deepslate_osmium_ore",
-    "aaoo:glacio_osmium_ore",
-    "aaoo:mars_osmium_ore",
-    "aaoo:mercury_osmium_ore",
-    "aaoo:moon_osmium_ore",
-    "aaoo:venus_osmium_ore"
+    "aaoo:mekanism/deepslate_osmium_ore",
+    "aaoo:mekanism/glacio_osmium_ore",
+    "aaoo:mekanism/mars_osmium_ore",
+    "aaoo:mekanism/mercury_osmium_ore",
+    "aaoo:mekanism/moon_osmium_ore",
+    "aaoo:mekanism/venus_osmium_ore"
   ],
   "step": "underground_ores"
 }

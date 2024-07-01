@@ -4,12 +4,12 @@
     "type": "forge:any"
   },
   "features": [
-    "aaoo:deepslate_lead_ore",
-    "aaoo:glacio_lead_ore",
-    "aaoo:mars_lead_ore",
-    "aaoo:mercury_lead_ore",
-    "aaoo:moon_lead_ore",
-    "aaoo:venus_lead_ore"
+    "aaoo:mekanism/deepslate_lead_ore",
+    "aaoo:mekanism/glacio_lead_ore",
+    "aaoo:mekanism/mars_lead_ore",
+    "aaoo:mekanism/mercury_lead_ore",
+    "aaoo:mekanism/moon_lead_ore",
+    "aaoo:mekanism/venus_lead_ore"
   ],
   "step": "underground_ores"
 }

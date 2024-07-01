@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aaoo:glacio_thorium_ore",
+    "aaoo:mars_thorium_ore",
+    "aaoo:mercury_thorium_ore",
+    "aaoo:moon_thorium_ore",
+    "aaoo:venus_thorium_ore"
+  ]
+}

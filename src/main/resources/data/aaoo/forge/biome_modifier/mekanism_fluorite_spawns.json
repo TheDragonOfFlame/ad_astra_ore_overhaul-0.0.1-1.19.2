@@ -4,12 +4,12 @@
     "type": "forge:any"
   },
   "features": [
-    "aaoo:deepslate_fluorite_ore",
-    "aaoo:glacio_fluorite_ore",
-    "aaoo:mars_fluorite_ore",
-    "aaoo:mercury_fluorite_ore",
-    "aaoo:moon_fluorite_ore",
-    "aaoo:venus_fluorite_ore"
+    "aaoo:mekanism/deepslate_fluorite_ore",
+    "aaoo:mekanism/glacio_fluorite_ore",
+    "aaoo:mekanism/mars_fluorite_ore",
+    "aaoo:mekanism/mercury_fluorite_ore",
+    "aaoo:mekanism/moon_fluorite_ore",
+    "aaoo:mekanism/venus_fluorite_ore"
   ],
   "step": "underground_ores"
 }

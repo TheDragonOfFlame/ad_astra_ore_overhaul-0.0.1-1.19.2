@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "ad_astra:mercury_osmium_ore"
+    "aaoo:mercury_fluorite_ore",
+    "aaoo:mercury_lead_ore",
+    "aaoo:mercury_osmium_ore",
+    "aaoo:mercury_tin_ore",
+    "aaoo:mercury_uranium_ore",
+    "aaoo:mercury_zinc_ore",
+    "aaoo:mercury_thorium_ore"
   ]
 }

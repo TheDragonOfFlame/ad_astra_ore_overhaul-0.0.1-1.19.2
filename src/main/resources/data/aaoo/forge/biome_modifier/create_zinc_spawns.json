@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:create/deepslate_zinc_ore",
+    "aaoo:create/glacio_zinc_ore",
+    "aaoo:create/mars_zinc_ore",
+    "aaoo:create/mercury_zinc_ore",
+    "aaoo:create/moon_zinc_ore",
+    "aaoo:create/venus_zinc_ore"
+  ],
+  "step": "underground_ores"
+}
