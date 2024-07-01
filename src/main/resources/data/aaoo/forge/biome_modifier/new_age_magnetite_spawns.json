@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:create_new_age/glacio_magnetite_ore",
+    "aaoo:create_new_age/mars_magnetite_ore",
+    "aaoo:create_new_age/mercury_magnetite_ore",
+    "aaoo:create_new_age/moon_magnetite_ore",
+    "aaoo:create_new_age/venus_magnetite_ore"
+  ],
+  "step": "underground_ores"
+}

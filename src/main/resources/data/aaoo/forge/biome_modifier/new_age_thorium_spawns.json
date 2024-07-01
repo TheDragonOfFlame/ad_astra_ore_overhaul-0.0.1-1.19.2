@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:create_new_age/glacio_thorium_ore",
+    "aaoo:create_new_age/mars_thorium_ore",
+    "aaoo:create_new_age/mercury_thorium_ore",
+    "aaoo:create_new_age/moon_thorium_ore",
+    "aaoo:create_new_age/venus_thorium_ore"
+  ],
+  "step": "underground_ores"
+}
