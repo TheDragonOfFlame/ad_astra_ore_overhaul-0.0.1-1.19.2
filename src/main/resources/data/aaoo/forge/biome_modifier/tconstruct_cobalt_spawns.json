@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:tconstruct/deepslate_cobalt_ore",
+    "aaoo:tconstruct/glacio_cobalt_ore",
+    "aaoo:tconstruct/mars_cobalt_ore",
+    "aaoo:tconstruct/mercury_cobalt_ore",
+    "aaoo:tconstruct/moon_cobalt_ore",
+    "aaoo:tconstruct/stone_cobalt_ore",
+    "aaoo:tconstruct/venus_cobalt_ore"
+  ],
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aaoo:block/glacio_cobalt_ore"
+  }
+}

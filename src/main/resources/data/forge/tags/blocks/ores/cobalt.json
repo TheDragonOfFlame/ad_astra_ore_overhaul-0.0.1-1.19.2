@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "aaoo:glacio_cobalt_ore",
+    "aaoo:mars_cobalt_ore",
+    "aaoo:mercury_cobalt_ore",
+    "aaoo:moon_cobalt_ore",
+    "aaoo:venus_cobalt_ore",
+    "aaoo:stone_cobalt_ore",
+    "aaoo:deepslate_cobalt_ore"
+  ]
+}

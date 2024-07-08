@@ -43,5 +43,13 @@
   "block.aaoo.moon_thorium_ore": "Moon Thorium Ore",
   "block.aaoo.venus_thorium_ore": "Venus Thorium Ore",
 
+  "block.aaoo.glacio_cobalt_ore": "Glacio Cobalt Ore",
+  "block.aaoo.mars_cobalt_ore": "Mars Cobalt Ore",
+  "block.aaoo.mercury_cobalt_ore": "Mercury Cobalt Ore",
+  "block.aaoo.moon_cobalt_ore": "Moon Cobalt Ore",
+  "block.aaoo.venus_cobalt_ore": "Venus Cobalt Ore",
+  "block.aaoo.stone_cobalt_ore": "Stone Cobalt Ore",
+  "block.aaoo.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+
   "itemGroup.aaoo_tab": "AA Ore Overhaul"
 }

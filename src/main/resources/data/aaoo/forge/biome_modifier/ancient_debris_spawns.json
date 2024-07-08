@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": [
+    "aaoo:vanilla/overworld_debris",
+    "aaoo:vanilla/glacio_debris",
+    "aaoo:vanilla/mars_debris",
+    "aaoo:vanilla/mercury_debris",
+    "aaoo:vanilla/moon_debris",
+    "aaoo:vanilla/venus_debris"
+  ],
+  "step": "underground_ores"
+}

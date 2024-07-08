@@ -35,6 +35,13 @@
     "aaoo:mercury_thorium_ore",
     "aaoo:moon_thorium_ore",
     "aaoo:venus_thorium_ore",
+    "aaoo:glacio_cobalt_ore",
+    "aaoo:mars_cobalt_ore",
+    "aaoo:mercury_cobalt_ore",
+    "aoo:moon_cobalt_ore",
+    "aaoo:venus_cobalt_ore",
+    "aaoo:stone_cobalt_ore",
+    "aaoo:deepslate_cobalt_ore",
     "aaoo:moon_quartz_ore"
   ]
 }

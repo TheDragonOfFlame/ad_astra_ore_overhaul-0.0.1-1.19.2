@@ -16,10 +16,7 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.thedragonofflame.ad_astra_ore_overhaul.block.CNewAgeOres;
-import net.thedragonofflame.ad_astra_ore_overhaul.block.CreateOres;
-import net.thedragonofflame.ad_astra_ore_overhaul.block.MekanismOres;
-import net.thedragonofflame.ad_astra_ore_overhaul.block.ModBlocks;
+import net.thedragonofflame.ad_astra_ore_overhaul.block.*;
 import net.thedragonofflame.ad_astra_ore_overhaul.config.AAOOClientConfigs;
 import net.thedragonofflame.ad_astra_ore_overhaul.config.AAOOCommonConfigs;
 import net.thedragonofflame.ad_astra_ore_overhaul.item.ModItems;
@@ -76,6 +73,8 @@ public class AdAstraOreOverhaul
         if (ModList.get().isLoaded("create_new_age")){
             CNewAgeOres.register(modEventBus);
         }
+
+        TConstructOres.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
